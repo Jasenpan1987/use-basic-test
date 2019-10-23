@@ -3,10 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.5.1",
     "@types/jest": "24.0.19",
     "@types/node": "12.7.12",
-    "@types/react": "16.9.6",
     "@types/react-dom": "16.9.2",
+    "basic-test": "git+https://github.com/jasenp-ticketek/basic-test.git",
+    "mypluralize": "git+https://github.com/philipszdavido/mypluralize.git",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-scripts": "3.2.0",
@@ -32,5 +34,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.6"
   }
 }
